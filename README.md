@@ -1,7 +1,5 @@
 # Airbeen_API_Individuell
 
-# Individuell inlämning Airbean API
-
 ## Instruktioner
 
 I den individuella delen av Airbean så ska du skapa ett admin-gränssnitt för att hantera menyn. Det ska gå och lägga till och ta bort
