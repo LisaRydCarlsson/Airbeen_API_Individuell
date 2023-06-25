@@ -1,8 +1,6 @@
 const nedb = require("nedb-promise");
 const menuDB = new nedb({ filename: "databases/menu.db", autoload: true });
-const { createDB } = require("../createDB.js");
-
-// createDB('/menu/menu.json', menuDB);
+const { createDB } = require("../utilities/createDB.js");
 
 async function getMenu() {
    const menu = await menuDB.find({});
@@ -10,7 +8,7 @@ async function getMenu() {
 }
 
 async function findMenuItem(id) {
-   return await menuDB.findOne({ id: id });
+   return await menuDB.findOne({ _id: id });
 }
 
 async function addMenuItem(item) {
@@ -20,8 +18,16 @@ async function addMenuItem(item) {
 
 // Uppdaterar enskilda produkter i menu.db med id.
 async function updateMenuItem(id, updatedItem) {
+   // Find menu item
+   const item = await menuDB.findOne({ _id: id });
+   updatedItem.createdAt = item.createdAt;
    updatedItem.modifiedAt = new Date().toLocaleString();
-   return await menuDB.update({ id: id }, updatedItem);
+   const numUpdated = await menuDB.update({ _id: id }, updatedItem);
+   if (numUpdated === 1) {
+      return "Item is now updated";
+   } else {
+      throw new Error("Failed to update item");
+   }
 }
 
 // Uppdaterar hela menu.db
@@ -30,15 +36,10 @@ async function updateMenuItems(updatedMenu) {
    await menuDB.insert(updatedMenu);
 }
 
-async function removeMenuItem(id) {
-   return await menuDB.remove({ id: id });
-}
-
 module.exports = {
    getMenu,
    findMenuItem,
    addMenuItem,
    updateMenuItem,
    updateMenuItems,
-   removeMenuItem,
 };
