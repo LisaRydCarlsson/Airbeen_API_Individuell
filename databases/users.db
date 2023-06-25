@@ -1,2 +1,4 @@
-{"username":"Lisa","password":"password123","roll":"admin","orders":[],"_id":"34T10vzNa9SYOFW9"}
+{"username":"newestAdmin","password":"$2b$10$/w/kpQ3WthrGawyKfQnYKe4oEArwXyljMtYSQqaGZqtu4IXV0X6Za","role":"admin","orders":[],"_id":"4QCuw9x1vZp6BU6F"}
+{"username":"Eva","password":"password789","roll":"customer","orders":[],"_id":"HOAhwHtZJYph4dfB"}
 {"username":"Lo","password":"password456","roll":"customer","orders":[],"_id":"IB3R6HgQQiLNA0Bx"}
+{"username":"Birgitta","password":"password789","roll":"customer","orders":[],"_id":"IZUKIpXZMc0RtSSG"}

@@ -1,8 +1,13 @@
-{"id":"coffee-220dodpzmg","title":"Caffè Doppio","desc":"Bryggd på månadens bönor.","price":49,"_id":"1w82cfDNWYVuCprT"}
-{"id":"pastry-vkzh17ct2r","title":"Semla","desc":"En fastlagsbulle i sin rätta form.","price":50,"_id":"6h1lVdiEwXoERjut"}
-{"id":"coffee-0lp6ter3bh","title":"Kaffe Latte","desc":"Bryggd på månadens bönor.","price":54,"_id":"91Yb7TXACqQjKqno"}
-{"id":"coffee-4pdksmrkfa","title":"Cappuccino","desc":"Bryggd på månadens bönor.","price":49,"_id":"Cj2XtFNUhr80La8q"}
-{"id":"coffee-e8hz0lk7q5","title":"Cortado","desc":"Bryggd på månadens bönor.","price":39,"_id":"HAYBvZJdUkLDtXRx"}
-{"id":"coffee-m2h37k2mnh","title":"Latte Macchiato","desc":"Bryggd på månadens bönor.","price":49,"_id":"ICwxNmZtNhXfjnGO"}
-{"id":"pastry-db3gfsuqpr","title":"Gustav Adolfsbakelse","desc":"En kunglig bakelse.","price":50,"_id":"JMjB4jD3q588DSvx"}
-{"id":"coffee-vxig26my4y","title":"Bryggkaffe","desc":"Bryggd på månadens bönor.","price":39,"_id":"zpxxK61dxQXjQ5Of"}
+{"title":"Gustav Adolfsbakelse","desc":"En kunglig bakelse.","price":49,"createdAt":"6/23/2023, 9:25:36 AM","_id":"3q3MJXhhql3TiOLB"}
+{"title":"Cappuccino","desc":"Kaffedryck gjord på espresso, ångad mjölk och skum.","price":49,"modifiedAt":"6/22/2023, 10:57:48 AM","_id":"43PxrnucMn4wZv4H"}
+{"title":"Bryggkaffe","desc":"Traditionellt bryggt kaffe.","price":29,"createdAt":"6/23/2023, 9:41:53 AM","_id":"4RmUge6HiAEhUUmB"}
+{"title":"Jordgubbsbakelse","desc":"Sommarbakelse med jordgubbar och grädde.","price":59,"createdAt":"6/23/2023, 10:55:21 AM","_id":"65aUaSikD29JQUh1"}
+{"title":"Caffè Doppio","desc":"Dubbel espresso.","price":39,"createdAt":"6/22/2023, 10:15:38 AM","modifiedAt":"6/23/2023, 9:27:15 AM","_id":"AjCS7GuPV8F8Cp3h"}
+{"title":"Kaffe Latte","desc":"Kaffe bryggd på espressomaskin med ångvärmd mjölk.","price":49,"createdAt":"6/23/2023, 9:18:40 AM","_id":"B1FBAC2Fyn7UbVNa"}
+{"title":"Donut","desc":"Amerikansk friterad godhet rullad i socker och kanel","price":35,"createdAt":"6/22/2023, 10:12:32 AM","_id":"ClzBlEJ3B7pQ3YeT"}
+{"title":"Semla","desc":"En fastlagsbulle i sin rätta form.","price":49,"createdAt":"6/22/2023, 10:33:18 AM","modifiedAt":"6/23/2023, 9:13:57 AM","_id":"HxGGtmSEpWnKTP9Y"}
+{"title":"Kokostopp","desc":"Glutenfri och delikat med laktosfri choklad på toppen","price":28,"createdAt":"6/22/2023, 10:11:24 AM","_id":"Iy46yRKQkluOpEtz"}
+{"title":"Cortado","desc":"Spanska kaffedryck som görs på lika delar varm skummad mjölk och espresso.","price":49,"createdAt":"6/23/2023, 9:20:57 AM","_id":"KIWGyfNxfzA2EAl4"}
+{"title":"Espresso","desc":"Intensivt och konsentrerat kaffe","price":45,"createdAt":"6/22/2023, 10:03:30 AM","_id":"XRKkVn2Fokc9Mrlg"}
+{"title":"Latte Macchiato","desc":"Italiensk kaffedryck som består av espresso toppad med en liten skvätt skummad mjölk.","price":49,"createdAt":"6/23/2023, 9:23:22 AM","_id":"m9KJnF95B3MDH7hy"}
+{"title":"Mazarin","desc":"Ett ovalt mästerverk med mandelsmak och glasyr på toppen","price":30,"createdAt":"6/22/2023, 10:10:22 AM","_id":"v4NQvy03JaJ5gSvq"}
