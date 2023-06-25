@@ -1,4 +1,18 @@
 const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
+const { findUsers } = require("../utilities/users.js");
+
+// Autentiserar användaren och genererar token
+async function authenticateAdmin(username, password) {
+   const [user] = await findUsers("username", username);
+   if (user && user.role === "admin" && bcrypt.compareSync(password, user.password)) {
+      const token = jwt.sign({ username: user.username, role: user.role }, "your-secret-key", {
+         expiresIn: "1h",
+      });
+      return token;
+   }
+   return null;
+}
 
 // Middleware för att kolla om användare är admin.
 function isAdmin(req, res, next) {
@@ -19,4 +33,4 @@ function isAdmin(req, res, next) {
    }
 }
 
-module.exports = { isAdmin };
+module.exports = { authenticateAdmin, isAdmin };
